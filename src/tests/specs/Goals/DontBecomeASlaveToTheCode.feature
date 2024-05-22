@@ -3,6 +3,8 @@ Feature: Dont become a slave to the code
 	As a regular distractable human
 	I need a project problem to solver using Akka.Net 
 
-Scenario: Have seperate billing, payment and usage services
+Scenario: Try to run on less than incumbents offering
+Scenario: Model costs at diffrent orders of maganatude 
+Scenario: Self serve documentation
 	
     
