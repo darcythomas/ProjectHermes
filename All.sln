@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B4FDBA0C-6301-4D8D-99F6-114BDBF60BAD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{F889EE07-CFEF-47B1-9597-8DBBB93A3362}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectHermes.Tests.Specifications", "src\tests\specs\ProjectHermes.Tests.Specifications.csproj", "{E793BCD9-393B-401C-9157-0AB65D478458}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E793BCD9-393B-401C-9157-0AB65D478458}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E793BCD9-393B-401C-9157-0AB65D478458}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E793BCD9-393B-401C-9157-0AB65D478458}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E793BCD9-393B-401C-9157-0AB65D478458}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F889EE07-CFEF-47B1-9597-8DBBB93A3362} = {B4FDBA0C-6301-4D8D-99F6-114BDBF60BAD}
+		{E793BCD9-393B-401C-9157-0AB65D478458} = {F889EE07-CFEF-47B1-9597-8DBBB93A3362}
+	EndGlobalSection
+EndGlobal
